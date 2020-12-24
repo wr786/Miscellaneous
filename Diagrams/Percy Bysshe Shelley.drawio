@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T08:15:50.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3-i6tyKOksBEAoDeMTF5" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T08:29:39.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="xdlJ0bBDs9iAauL4_Ouh" version="14.1.2" type="github">
   <diagram id="oBFxLRTFSiwSphZ9xtob" name="Page-1">
-    <mxGraphModel dx="3671" dy="1414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3197" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,12 +83,6 @@
         </mxCell>
         <mxCell id="Nt5zldpZcJnzgQMrTcaI-16" value="当时的英国，神权思想禁锢" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Nt5zldpZcJnzgQMrTcaI-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-21" target="Nt5zldpZcJnzgQMrTcaI-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Nt5zldpZcJnzgQMrTcaI-21" value="&lt;font style=&quot;font-size: 13px&quot;&gt;托马斯·杰斐逊·霍格&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nt5zldpZcJnzgQMrTcaI-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-24" target="Nt5zldpZcJnzgQMrTcaI-28">
           <mxGeometry relative="1" as="geometry" />
@@ -181,6 +175,27 @@
         </mxCell>
         <mxCell id="Nt5zldpZcJnzgQMrTcaI-50" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 18px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;雪莱一生向往自由，并且尊重女性，他的爱情婚姻观念主要受葛德文影响，他认为：“一个丈夫和一个妻子，只要他们彼此相爱，自然就结合在一起：在俩人感情已经消亡后，任何法律仍然会把他们绑在一起生活一段时间，因此它是一种最令人难堪的专制。爱就是自由；承诺爱同一个女人到永远，就和承诺信奉一个信条一样荒唐。”&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="537.5" y="1510" width="370" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-58" target="Nt5zldpZcJnzgQMrTcaI-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-58" value="1819年8月，曼彻斯特八万工人举行了声势浩大的游行示威，反动当局竞出动军队野蛮镇压，制造了历史上著名的彼得卢大屠杀事件。雪莱满怀悲愤，写下了长诗《暴政的假面游行》，对资产阶级政府的血腥暴行提出严正抗议。" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2110" width="700" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-59" target="Nt5zldpZcJnzgQMrTcaI-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-59" value="当时，欧洲各国的工人运动和革命运动风起云涌。英国工人阶级为了争取自身的生存权利，正同资产阶级展开英勇的斗争，捣毁机器和罢工事件接连不断。" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1880" width="640" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-61" target="Nt5zldpZcJnzgQMrTcaI-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-61" value="同年秋天，西风颂" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="2400" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-62" value="在意大利和希腊，民族解放运动方兴未艾，雪莱的《西风颂》发表不久，这两个国家也先后爆发了轰轰烈烈的武装起义。面对着欧洲山雨欲来风满楼的革命形势，雪莱为之鼓舞，为之振奋。这时，在一场暴风骤雨的自然景象的触发下，这种难以抑制的激情立刻冲出胸膛，一泻千里，化作激昂慷慨的歌唱。这时诗人正旅居意大利，处于创作的高峰期。" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="75" y="2350" width="590" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
