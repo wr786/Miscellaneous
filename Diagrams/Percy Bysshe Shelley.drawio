@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T07:54:18.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="g-2BLabKPeW1aQ2GWhEw" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T08:15:50.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3-i6tyKOksBEAoDeMTF5" version="14.1.2" type="github">
   <diagram id="oBFxLRTFSiwSphZ9xtob" name="Page-1">
-    <mxGraphModel dx="1422" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3671" dy="1414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,6 +89,98 @@
         </mxCell>
         <mxCell id="Nt5zldpZcJnzgQMrTcaI-21" value="&lt;font style=&quot;font-size: 13px&quot;&gt;托马斯·杰斐逊·霍格&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-24" target="Nt5zldpZcJnzgQMrTcaI-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-24" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;哈丽雅特&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-25" target="Nt5zldpZcJnzgQMrTcaI-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-25" value="Expelled to leave the school&lt;br&gt;Disowned by his father" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="710" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-26" target="Nt5zldpZcJnzgQMrTcaI-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-26" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;为了讨好雪莱，哈丽雅特模仿、发表他的各种观点，甚至是无神论。结果可想而知。&lt;br&gt;哈丽雅特向雪莱哭诉自己受到了父亲、学校的虐待。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1002.5" y="825" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-28" target="Nt5zldpZcJnzgQMrTcaI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-28" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;19岁的雪莱带着16岁的哈丽雅特&lt;b&gt;私奔&lt;/b&gt;到苏格兰，并在爱丁堡结婚。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="855" width="215" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="598" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-29" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;为了“拯救”这个可怜的小女孩&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-32" value="&lt;font style=&quot;font-size: 16px&quot;&gt;(&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;玛丽·葛德文&lt;/span&gt;)&lt;br&gt;玛丽·雪莱&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="1100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-33" target="Nt5zldpZcJnzgQMrTcaI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-33" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;由于种种原因，雪莱逐渐觉得妻子并不追求先进，和自己不在一个思想高度，认为哈丽雅特嫁给他是贪图钱财罢了，这位风流才子开始后悔当年的一时冲动了。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="990" width="370" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-38" value="妹妹" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-34" target="Nt5zldpZcJnzgQMrTcaI-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-34" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;克莱尔·克莱尔蒙特&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="1100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-35" target="Nt5zldpZcJnzgQMrTcaI-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-35" target="Nt5zldpZcJnzgQMrTcaI-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-35" target="Nt5zldpZcJnzgQMrTcaI-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-35" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;威廉·葛德文&lt;br&gt;（雪莱的人生导师）&lt;br&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="990" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-40" value="姐姐" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-39" target="Nt5zldpZcJnzgQMrTcaI-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-39" value="&lt;font style=&quot;font-size: 16px&quot;&gt;范妮·葛德文&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-43" target="Nt5zldpZcJnzgQMrTcaI-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-43" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;这一次，雪莱再次用了当年的套路——&lt;b&gt;私奔&lt;/b&gt;。和葛德文撕破脸后，雪莱抛弃了怀孕中的妻子与幼年的女儿，带上玛丽踏上了前往法国之路，还顺带“拐走”了小姨子克莱尔·克莱尔蒙特。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1180" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="Nt5zldpZcJnzgQMrTcaI-44" target="Nt5zldpZcJnzgQMrTcaI-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-44" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;这桩惊天丑闻让葛德文一家的脸无处安置。谣言四起，玛丽的姐姐范妮因此失去了工作机会，更致命的是，她也疯狂地迷恋上了雪莱，多重打击下，范妮自杀了。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1350" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-46" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;索菲亚斯泰西&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="1209" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-47" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;一名修女&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-48" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;简·威廉姆斯&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-49" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;雪莱与克莱尔越来越暧昧，此后先是与索菲亚斯泰西有一段说不清的关系，随后又企图再次“拯救”一名修女于水火之中，接着与简·威廉姆斯打得火热。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1540" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Nt5zldpZcJnzgQMrTcaI-50" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 18px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;雪莱一生向往自由，并且尊重女性，他的爱情婚姻观念主要受葛德文影响，他认为：“一个丈夫和一个妻子，只要他们彼此相爱，自然就结合在一起：在俩人感情已经消亡后，任何法律仍然会把他们绑在一起生活一段时间，因此它是一种最令人难堪的专制。爱就是自由；承诺爱同一个女人到永远，就和承诺信奉一个信条一样荒唐。”&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="1510" width="370" height="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
