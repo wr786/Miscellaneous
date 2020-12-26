@@ -1,19 +1,44 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%参数区%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 用于确定总共的n的数量（原题目中对应的情况为nMin = nMax = 0）
+nMin = 0;
+nMax = 0;  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%main%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-for n = 0:13
+% 计算各个Q(单位P)下，当时所有的杆受到的最大的压力
+for n = nMin:nMax
     Fs1 = calc(n, 0);
     Fs2 = calc(n, 1.44);
-    x = [0:0.01:1.44];
-    maxy = zeros(145);  % store the maxvalue of Ys
-    hold on;
+    x = (0:0.01:1.44);
+    ys = zeros(24 + 4*n, 145);
+    maxy = zeros(1, 145);  % store the maxvalue of Ys
+    mark = zeros(1, 145);
+    marked = zeros(1, 24+4*n);
     for i = 1: 24+4*n
-        y = (Fs2(i) - Fs1(i)) .* x ./ 1.44 + Fs1(i);
-        % plot(x, abs(y));
+        y = -((Fs2(i) - Fs1(i)) .* x ./ 1.44 + Fs1(i)); % 修正为向内取正（只考虑受压力的最大值）
+        ys(i, :) = y;
         maxy = max(maxy, y);
-        maxy = max(maxy, -y); % abs
+        % disp(maxy);
+        for j = 1:145
+            if maxy(j) == y(j)
+               if i <= 21 + 4*n
+                    mark(j) = i;
+               end
+            end
+        end
+        % maxy = max(maxy, -y); % abs
     end
-    plot(x, maxy.');
 end
-    
+
+if nMin == nMax
+    % 绘制危险杆件压力随均布荷载q增大（0P/m~0.06P/m）的变化曲线
+    showDangerousLanes(mark, marked, x, ys, nMin);
+    % 绘制折线图
+    sep_plot(mark, x, maxy);
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%函数区%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 计算在不同n、Q下，各个杆的受力
 function ret = calc(n, Q)
 
     sint = 3 / 5;
@@ -69,4 +94,54 @@ function ret = calc(n, Q)
     ];
     ret = A\b;
     
+end
+
+% 用于显示各Q(单位P)下，当时受压力最大的杆的序号
+% 建议只在nMin == nMax时使用
+function sep_plot(mark, x, maxy)
+    figure;
+    hold on;
+    lines = zeros(1, 145);
+    leftBound = 1;
+    rightBound = 1;
+    curColor = mark(1);
+    colorCnt = 1;
+    lines(colorCnt) = mark(1);
+    % disp(mark);
+    for j = 2:145
+        if curColor == mark(j)
+            rightBound = rightBound + 1;
+        else
+            plot(x(leftBound: rightBound), maxy(leftBound: rightBound));
+            rightBound = rightBound + 1;
+            leftBound = rightBound;
+            curColor = mark(j);
+            colorCnt = colorCnt + 1;
+            lines(colorCnt) = mark(j);
+        end
+    end
+    % plot(x, maxy.');
+    plot(x(leftBound: rightBound), maxy(leftBound: rightBound).')
+    % legend("F" + (0: nMax));
+    legend("杆"  + lines(1: colorCnt));
+    xlabel("Q(/P)");
+    ylabel("F(/P)");
+    hold off;
+end
+
+% 用于绘制危险杆件压力随均布荷载q增大（0P/m~0.06P/m）的变化曲线
+% 建议只在nMin == nMax时使用
+function showDangerousLanes(mark, marked, x, ys, n)
+    % 将大Q转换回小q
+    x = x * (n+5) / (30*(n+4));
+    for j = 1:145
+        if marked(mark(j)) == 0
+            marked(mark(j)) = 1;
+            figure;
+            plot(x, ys(mark(j),:));
+            xlabel("q(/P)");
+            ylabel("F(/P)");
+            legend("杆" + mark(j));
+        end
+    end
 end
