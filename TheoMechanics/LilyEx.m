@@ -7,18 +7,18 @@ nMax = 0;
 % 计算各个Q(单位P)下，当时所有的杆受到的最大的压力
 for n = nMin:nMax
     Fs1 = calc(n, 0);
-    Fs2 = calc(n, 1.44);
-    x = (0:0.01:1.44);
-    ys = zeros(24 + 4*n, 145);
-    maxy = zeros(1, 145);  % store the maxvalue of Ys
-    mark = zeros(1, 145);
+    Fs2 = calc(n, 0.06);
+    x = (0:0.0001:0.06);
+    ys = zeros(24 + 4*n, 601);
+    maxy = zeros(1, 601);  % store the maxvalue of Ys
+    mark = zeros(1, 601);
     marked = zeros(1, 24+4*n);
     for i = 1: 24+4*n
-        y = -((Fs2(i) - Fs1(i)) .* x ./ 1.44 + Fs1(i)); % 修正为向内取正（只考虑受压力的最大值）
+        y = -((Fs2(i) - Fs1(i)) .* x ./ 0.06 + Fs1(i)); % 修正为向内取正（只考虑受压力的最大值）
         ys(i, :) = y;
         maxy = max(maxy, y);
         % disp(maxy);
-        for j = 1:145
+        for j = 1:601
             if maxy(j) == y(j)
                if i <= 21 + 4*n
                     mark(j) = i;
@@ -31,7 +31,7 @@ end
 
 if nMin == nMax
     % 绘制危险杆件压力随均布荷载q增大（0P/m~0.06P/m）的变化曲线
-    showDangerousLanes(mark, marked, x, ys, nMin);
+    showDangerousLanes(mark, marked, x, ys);
     % 绘制折线图
     sep_plot(mark, x, maxy);
 end
@@ -39,7 +39,8 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%函数区%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % 计算在不同n、Q下，各个杆的受力
-function ret = calc(n, Q)
+function ret = calc(n, q)
+    Q = q * 30 * (n+4) / (n+5);
 
     sint = 3 / 5;
     cost = 4 / 5;
@@ -101,14 +102,14 @@ end
 function sep_plot(mark, x, maxy)
     figure;
     hold on;
-    lines = zeros(1, 145);
+    lines = zeros(1, 601);
     leftBound = 1;
     rightBound = 1;
     curColor = mark(1);
     colorCnt = 1;
     lines(colorCnt) = mark(1);
     % disp(mark);
-    for j = 2:145
+    for j = 2:601
         if curColor == mark(j)
             rightBound = rightBound + 1;
         else
@@ -124,17 +125,15 @@ function sep_plot(mark, x, maxy)
     plot(x(leftBound: rightBound), maxy(leftBound: rightBound).')
     % legend("F" + (0: nMax));
     legend("杆"  + lines(1: colorCnt));
-    xlabel("Q(/P)");
+    xlabel("q(/P)");
     ylabel("F(/P)");
     hold off;
 end
 
 % 用于绘制危险杆件压力随均布荷载q增大（0P/m~0.06P/m）的变化曲线
 % 建议只在nMin == nMax时使用
-function showDangerousLanes(mark, marked, x, ys, n)
-    % 将大Q转换回小q
-    x = x * (n+5) / (30*(n+4));
-    for j = 1:145
+function showDangerousLanes(mark, marked, x, ys)
+    for j = 1:601
         if marked(mark(j)) == 0
             marked(mark(j)) = 1;
             figure;
