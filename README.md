@@ -1,2 +1,2 @@
 # Miscellaneous
- Just a pastebin
+ Just a pastebin for private use.
